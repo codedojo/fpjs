@@ -1,9 +1,9 @@
 'use strict';
 
-const length = require('../length');
+const size = require('../size');
 
 function isEmpty(array) {
-    return length(array) === 0;
+    return size(array) === 0;
 }
 
 module.exports = isEmpty;

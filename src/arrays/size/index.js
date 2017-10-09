@@ -2,8 +2,8 @@
 
 const reduce = require('../reduce');
 
-function length(array) {
+function size(array) {
     return reduce(array, result => result + 1, 0);
 }
 
-module.exports = length;
+module.exports = size;

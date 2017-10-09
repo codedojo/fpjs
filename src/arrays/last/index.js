@@ -1,9 +1,9 @@
 'use strict';
 
-const length = require('../length');
+const size = require('../size');
 
 function last(array) {
-    return array[length(array) - 1];
+    return array[size(array) - 1];
 }
 
 module.exports = last;
