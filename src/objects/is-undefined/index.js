@@ -1,7 +1,5 @@
 'use strict';
 
-const is = require('../is');
-
-const isUndefined = is(value => value === undefined);
+const isUndefined;
 
 module.exports = isUndefined;
