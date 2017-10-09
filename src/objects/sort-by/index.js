@@ -1,7 +1,7 @@
 'use strict';
 
 function sortBy(prop) {
-    return function(a, b) {
+    return (a, b) => {
         if (a[prop] > b[prop]) return 1;
         if (a[prop] < b[prop]) return -1;
         return 0;

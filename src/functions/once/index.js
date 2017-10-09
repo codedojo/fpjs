@@ -3,7 +3,7 @@
 function once(fn) {
     let hasCalled = false;
 
-    return function(...args) {
+    return (...args) => {
         if (!hasCalled) {
             fn(...args);
             hasCalled = true;
