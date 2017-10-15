@@ -5,8 +5,8 @@ function once(fn) {
 
     return (...args) => {
         if (!hasCalled) {
-            fn(...args);
             hasCalled = true;
+            return fn(...args);
         }
     };
 }

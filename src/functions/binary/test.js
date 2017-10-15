@@ -15,9 +15,10 @@ describe('binary', () => {
         let mock = jest.fn();
         let fn = binary(mock);
 
-        fn(3, 4);
+        fn(3, 4, 7);
 
         expect(mock.mock.calls[0][0]).toBe(3);
         expect(mock.mock.calls[0][1]).toBe(4);
+        expect(mock.mock.calls[0][2]).toBeUndefined();
     });
 });
