@@ -1,4 +1,4 @@
-const binary = require('./solution');
+const binary = require('./');
 
 describe('binary', () => {
     test('возвращает функцию', () => {
